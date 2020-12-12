@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magetic AI</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+  <div class="wrapper">
+
+<!-- header of the page, styled like BEM block in header.css designed for grid-area position-->
+    <header class="header">
+      <div class="header__search">
+        <i class="fas fa-search"></i> 
+        <input type="search" placeholder="Search...">
+      </div>
+      <div class="header__icons">
+        <a  class="header__link" href="#">
+          <i class="fas fa-comment-alt" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"></i> 
+        </a>
+        <a  class="header__link" href="#">
+          <i class="fas fa-bell"></i> 
+        </a>
+        <a  class="header__link" href="#">
+          <i class="fas fa-user-circle"></i> 
+        </a>
+      </div>
+    </header>
+
+<!-- static side-bar, BEM-block in side-bar.css for grid-area position-->
+    <div class="side-bar">
+      <div class="side-bar__header">
+        <img class="side-bar__logo" src="./icons/kostka1.svg" alt="menu_logo">
+      </div>
+      <div class="side-bar__container">
+        <div class="side-bar__dots dot-1"></div>
+        <div class="side-bar__dots dot-2"></div>
+      </div>
+    </div>
+
+
+    <div class="content">
+      <div class="container c-1"></div>
+      <div class="container c-2"></div>
+      <div class="container c-3"></div>
+      <div class="container c-4"></div>
+      <div class="container c-5"></div>
+      <div class="container c-6"></div>
+      <div class="container c-7"></div>
+      <div class="container c-8"></div>
+      <div class="container c-9"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>

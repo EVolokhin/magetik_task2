@@ -1,0 +1,40 @@
+.container {
+  background-color:palevioletred;
+}
+
+.c-1 {
+  grid-area: c1;
+}
+
+.c-2 {
+  grid-area: c2;
+}
+
+.c-3 {
+  grid-area: c3;
+}
+
+.c-4 {
+  grid-area: c4;
+}
+
+.c-5 {
+  grid-area: c5;
+}
+
+.c-6 {
+  grid-area: c6;
+}
+
+.c-7 {
+  grid-area: c7;
+}
+
+.c-8 {
+  grid-area: c8;
+}
+
+.c-9 {
+  grid-area: c9;
+}
+

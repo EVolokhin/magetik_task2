@@ -1,0 +1,57 @@
+.side-bar {
+  grid-area: bar;
+  width: 50px;
+  height: 100%;
+
+  background-color: #384756;
+}
+
+.side-bar__header {
+  padding: 10px 10px;
+  height: 50px;
+
+  background-color:#333f4e ;
+}
+
+.side-bar__container {
+   position: relative;
+ }
+
+.side-bar__dots {
+  margin: 30px auto;
+  width: 10px;
+  height: 10px;
+  
+  background-color: #b4b9bd;
+  border-radius: 50%;
+}
+
+.dot-1::before,
+.dot-1::after,
+.dot-2::before,
+.dot-2::after {
+  content: '';
+  position: absolute;
+  margin: 0 auto;
+  width: 10px;
+  height: 10px;
+  background-color: #b4b9bd;
+  border-radius: 50%;
+}
+
+.dot-1::before {
+  top: 80px;
+}
+
+.dot-1::after {
+  top: 120px;
+}
+
+.dot-2::before {
+  top: 160px;
+}
+.dot-2::after {
+  top: 200px;
+}
+
+

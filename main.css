@@ -1,0 +1,29 @@
+@import "./styles/header.css";
+@import "./styles/content.css";
+@import "./styles/container.css";
+@import "./styles/side-bar.css";
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 50px 1fr;
+  grid-template-areas: 
+  "bar header_menu"
+  "bar content";
+
+  height: 100vh;
+}
