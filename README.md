@@ -4,7 +4,7 @@ Changes the content if mouse clicked on the page
 Divided for BEM blocks, Designed for Grid positions.
 Has comments of code in app.js &  Index html.
 
-- [DEMO LINK](https://evolokhin.github.io/magetic_task2/.)
+- [DEMO LINK](https://evolokhin.github.io/magetik_task2/)
 
 ## Description
 - HTML5 / CSS3;
